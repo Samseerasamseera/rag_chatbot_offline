@@ -21,5 +21,7 @@ It works by:
    ```bash
    pip install -r requirements.txt
 
-
+3. ▶️ Running the Script
+    Run the following command in your terminal:
+  python main.py
 
