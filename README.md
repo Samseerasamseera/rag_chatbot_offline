@@ -23,5 +23,7 @@ It works by:
 
 3. ▶️ Running the Script
     Run the following command in your terminal:
-  python main.py
+```bash
+   python main.py
+
 
