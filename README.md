@@ -1,5 +1,5 @@
 # rag_chatbot_offline
-# PDF Question Answering with FAISS & Local LLM
+ PDF Question Answering with FAISS & Local LLM
 
 This project allows you to **ask questions about the contents of a PDF** using:
 - **SentenceTransformers** for text embeddings
@@ -13,6 +13,13 @@ It works by:
 4. Using a local LLM to generate an answer based on the most relevant chunks.
 
 ---
+## 📦 Installation
+
+1. **Clone or download** this repository.
+
+2. **Install dependencies** from `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
 
 
 
