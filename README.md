@@ -4,7 +4,7 @@
 This project allows you to **ask questions about the contents of a PDF** using:
 - **SentenceTransformers** for text embeddings
 - **FAISS** for fast semantic search
-- **FLAN-T5** (via Hugging Face) as a local Large Language Model for answer generation
+
 
 It works by:
 1. Extracting and chunking text from a PDF.
