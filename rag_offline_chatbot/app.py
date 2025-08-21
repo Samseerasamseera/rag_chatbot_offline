@@ -6,7 +6,6 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 
-# Load PDF and split to chunks
 def load_pdf_chunks(pdf_path, chunk_size=500):
     reader = PyPDF2.PdfReader(open(pdf_path, 'rb'))
     full_text = ""
@@ -73,3 +72,4 @@ if __name__ == "__main__":
         context = "\n".join(top_chunks)
         answer = generate_answer(query, context, generator)
         print("\n🧠 Answer:", answer)
+
